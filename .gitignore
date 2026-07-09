@@ -8,3 +8,5 @@ __pycache__/
 *.parquet
 *.db
 Project Plan.md
+*.pkl
+/notebooks

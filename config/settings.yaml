@@ -1,0 +1,14 @@
+market:
+  heat_rate_gas: 7.0        # MMBtu/MWh — centrale gaz moderne
+  heat_rate_coal: 8.5       # MMBtu/MWh — centrale charbon
+  carbon_intensity_gas: 0.4 # tCO2/MWh
+  carbon_intensity_coal: 0.9
+
+data:
+  start_date: "2020-01-01"
+  end_date: "2024-12-31"
+  rolling_window_corr: 90   # jours pour rolling correlation
+  rolling_window_spread: 30
+
+api:
+  entsoe_key: null
